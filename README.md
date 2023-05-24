@@ -1,6 +1,9 @@
 # LRU-C
 LRU-C: Parallelizing Database I/Os for Flash SSDs
 
+## Publication 
+- Bohyun Lee, Mijin An, and Sangwon Lee, "LRU-C: Parallelizing Database I/Os for Flash SSDs",  VLDB'23 (to appear)
+
 ## Abstract
 The conventional database buffer managers have two inherent sources of I/O serialization: read stall and mutex conflict. The serialized I/O makes storage and CPU under-utilized, limiting transaction throughput and latency. Such harm stands out on flash SSDs with asymmetric read-write speed and abundant I/O parallelism.
 
